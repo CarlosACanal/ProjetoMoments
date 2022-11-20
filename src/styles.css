@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: #293462;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #293462;
+    transition: .4s;
+}
+a:hover {
+    color: #FEB139;
+}
+
+
+/* FORM */
+form {
+    width: 450px;
+    margin: 0 auto;
+
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: .4rem;
+}
+
+.form-group input, .form-group textarea {
+    padding: .6rem;
+    border-radius: 5px;
+
+}
+
+input[type="submit"] {
+    background-color: #d3d3d376;
+    color: #293462;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 0.4rem 0.6rem;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    width: 150px;
+    height: 50px;
+
+}
+
+input[type="submit"]:hover {
+    
+    background-color: #FEB139;
+    border: #293462 solid 0.5px;
+}
+
+.validation-error p {
+    color: red;
+    margin-top: 0.4rem;
+    border-left: 3px solid red;
+    padding-left: 0.2rem;
+    margin-bottom: 0.6rem;
+}

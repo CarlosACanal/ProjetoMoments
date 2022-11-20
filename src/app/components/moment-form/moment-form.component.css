@@ -1,0 +1,13 @@
+form {
+    width: 600px;
+    padding: 3rem;
+    border-radius: 10px;
+    background-color: #d3d3d343;
+    margin-bottom: 2rem;
+    transition: .2s;
+}
+
+form:hover {
+    background-color: #d3d3d360;
+}
+

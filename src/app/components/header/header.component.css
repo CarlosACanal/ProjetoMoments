@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: #FEB139 solid 1px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+.brand img {
+    width: 50px;
+    margin: 0 1rem;
+
+}
+.brand h2 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    transition: .4s;
+    font-family: 'Square Peg', cursive;
+    font-size: 2rem;
+}
+
+.brand > h2:hover {
+    color: #FEB139;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    padding: 0 1rem;
+    list-style-type: none;
+}
+
+.menu ul li a {
+    transition: .4s;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.menu ul li a:hover {
+    background-color: #d3d3d343;
+}
